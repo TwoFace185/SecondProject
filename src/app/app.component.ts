@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'SecondProject';
+
+  stepFrom:string;
+
+
+
+
+  constructor() {
+    
+  }
+
+  onClick(status){
+    this.stepFrom=status;
+
+  }
 }
